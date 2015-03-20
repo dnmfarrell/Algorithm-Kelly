@@ -10,14 +10,14 @@ Algorithm::Kelly - calculates the fraction of of your bankroll to bet using the 
 
 version 0.02
 
-=head2 SYNOPSIS
+=head1 SYNOPSIS
 
     use Algorithm::Kelly;
     use feature 'say';
 
     say optimal_f(0.5, 2); # 0.25
 
-=head2 FUNCTIONS
+=head1 FUNCTIONS
 
 =head2 optimal_f ($probability, $payoff)
 
