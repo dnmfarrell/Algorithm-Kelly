@@ -11,7 +11,7 @@ BEGIN
   our @EXPORT = 'optimal_f';
 }
 
-=head2 SYNOPSIS
+=head1 SYNOPSIS
 
     use Algorithm::Kelly;
     use feature 'say';
@@ -20,7 +20,7 @@ BEGIN
 
 =cut
 
-=head2 FUNCTIONS
+=head1 FUNCTIONS
 
 =head2 optimal_f ($probability, $payoff)
 
