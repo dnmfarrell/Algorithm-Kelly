@@ -20,9 +20,11 @@ BEGIN
 
 =cut
 
+=head2 FUNCTIONS
+
 =head2 optimal_f ($probability, $payoff)
 
-Returns the optimal L<fraction|https://en.wikipedia.org/wiki/Kelly_criterion> of bankroll to wager, using the Kelly Criterion, given the C<$probability> and C<$payoff>. Payoff should be the net odds of the wager, so the value of 3-to-1 would be 3. The C<fraction()> sub is exported by default.
+Returns the optimal L<fraction|https://en.wikipedia.org/wiki/Kelly_criterion> of bankroll to wager, using the Kelly Criterion, given the C<$probability> and C<$payoff>. Payoff should be the net odds of the wager, so the value of 3-to-1 would be 3. The C<optimal_f()> sub is exported by default.
 
 =cut
 
