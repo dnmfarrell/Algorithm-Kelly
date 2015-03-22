@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Algorithm::Kelly;
 
-# ABSTRACT: calculates the fraction of of your bankroll to bet using the Kelly formula
+# ABSTRACT: calculates the fraction of a bankroll to bet using the Kelly formula
 
 BEGIN
 {
@@ -43,5 +43,17 @@ sub optimal_f
 
   ($probability * $payoff - (1 - $probability)) / $payoff;
 }
+
+=head1 CONVERTING ODDS
+
+Odds are usually presented in one of three styles: decimal, fraction or American. The C<optimal_f> sub requires the net decimal odds. These odds are all equal:
+
+    Type      Example    Net Odds
+    ----      --------   --------
+    Decimal   4.0        3.0
+    Fraction  3/1        3.0
+    American  +300       3.0
+
+=cut
 
 1;
