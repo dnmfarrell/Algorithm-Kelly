@@ -33,6 +33,8 @@ Odds are usually presented in one of three styles: decimal, fraction or American
     Fraction  3/1        3.0
     American  +300       3.0
 
+The different odds representations are also explained L<here|http://www.olbg.com/school/lesson10.htm>.
+
 =head1 AUTHOR
 
 David Farrell <dfarrell@cpan.org>
